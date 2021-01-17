@@ -8,6 +8,7 @@ if [[ ! -d Betty ]]; then
 else
 	cd Betty
     ./install.sh
+	cd ..
     cp bettyWrapper /bin/betty
 fi
 
