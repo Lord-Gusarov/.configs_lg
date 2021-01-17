@@ -1,5 +1,13 @@
 #!/bin/bash
+if [[ -d Betty ]]; then
+	rm -rf Betty
+fi
 git clone https://github.com/holbertonschool/Betty
-./Betty/install.sh
-cp bettyWrapper /bin/betty
+if [[ ! -d Betty ]]; then
+	echo "****Failed to clone the Betty repo*****"
+else
+	cd Betty
+    ./install.sh
+    cp bettyWrapper /bin/betty
+fi
 
