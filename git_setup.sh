@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # Setups Git as if it was the first time being used
 
-# Install git if not present
-sudo apt install git
 # Sets username, email and persistent id with store
 git config --global user.name "Gustavo Hornedo"
 git config --global user.email "gustavo.hc18@gmail.com"
