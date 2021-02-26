@@ -11,3 +11,4 @@ cd ~/hrepos
 git clone https://github.com/Lord-Gusarov/holberton-system_engineering-devops.git
 git clone https://github.com/Lord-Gusarov/holbertonschool-low_level_programming.git
 git clone https://github.com/Lord-Gusarov/holbertonschool-higher_level_programming.git
+git clone https://github.com/Lord-Gusarov/AirBnB_clone.git
