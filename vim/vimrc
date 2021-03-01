@@ -52,7 +52,7 @@ highlight NonText guifg=#4a4a59 guibg=#4a4a59
 
 " Setup Persistent undo
 set undofile
-set undodir=~/.undo
+set undodir=~/.vim_undo
 
 " Adding python script shebang automatically
 autocmd BufNewFile *.py norm i#!/usr/bin/python3
