@@ -5,4 +5,5 @@ cd bettyLinter
 cd ..
 #Sets up Pep8 version 1.7.0
 ./pep8/install.sh
-
+#Install MySQL
+apt-get install myswl-server
