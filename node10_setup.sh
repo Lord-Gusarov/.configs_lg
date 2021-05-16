@@ -3,3 +3,7 @@ sudo apt-get install -y nodejs
 
 # Tool to check complaince with Rules of Standars + semiconlons on top
 sudo npm install semistandard --global
+
+# request module
+sudo npm install request --global
+export NODE_PATH=/usr/lib/node_modules
