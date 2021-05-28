@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get update
 #Sets up the Betty Linter
 cd bettyLinter
 ./install.sh
