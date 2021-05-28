@@ -17,3 +17,5 @@
 > - Installs Node.js
 > - Installs JS linter, 'semistandard'
 > - Adds the request module
+### ./fabric_setup.sh
+> - Install Fabric for Python 3 - version 1.14.post1
