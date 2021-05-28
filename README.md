@@ -10,3 +10,12 @@
 	this scip will crete such dir for the persistant undo option in vim.
 ###  ./git_setup.sh
 > - Sets global username, email, permanent credential storing and clones my most used REPOS into the folder ~/hrepos 
+### ./MySQLdb_SQLAlchemy_setup.sh
+> - Installs MySQldb
+> - Installs SqlAlchemy
+### ./node10_setup.sh
+> - Installs Node.js
+> - Installs JS linter, 'semistandard'
+> - Adds the request module
+### ./fabric_setup.sh
+> - Install Fabric for Python 3 - version 1.14.post1
