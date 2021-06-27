@@ -1,0 +1,19 @@
+alias nv='nvim'
+
+alias md='mkdir -pv'
+
+alias ..='cd ..'
+alias ...='cd .. ; cd ..'
+
+alias gs='git status'
+alias ga='git add'
+alias gm='git commit -m'
+alias gp='git push'
+
+bash_bck () {
+	cd ~/.hlb_config/bash/
+	ga bash_aliases
+	gm '[update] auto aliases backup'
+	gp
+	cd -
+}
