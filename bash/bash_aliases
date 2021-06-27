@@ -13,6 +13,9 @@ alias gp='git push'
 bash_bck () {
 	cd ~/.hlb_config/bash/
 	ga bash_aliases
+	ga README.md
+	cd ..
+	ga aliases_setup.sh
 	gm '[update] auto aliases backup'
 	gp
 	cd -
